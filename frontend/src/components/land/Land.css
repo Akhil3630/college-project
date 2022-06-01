@@ -1,0 +1,112 @@
+:root{
+    --pirmaryback:#ff4141;
+    --text:#121212;
+    --background:#ffffff;
+}
+.home2-row{
+    margin: 0;
+    padding: 0;
+}
+.home21st-div{
+    height: 100vh;
+    background-color: var(--pirmaryback);
+    
+}
+.home22nd-div{
+    height: 100vh;
+    color: var(--primarytext);
+    
+}
+.add-service-bt:hover{
+    background-color: #ffc4c4;
+    color: var(--pirmaryback);
+    border: none;
+}
+.text-responsive{
+
+    font-size: calc(100% + 2vw + 2vh);
+    margin-top: 8rem;
+    font-weight: bolder;
+
+}
+.p-tag-home2{
+    font-size: calc(50% + 1vw + 1vh);
+    margin-top: 2rem;
+    font-weight: bolder;
+}
+.add-support-bt{
+    margin: 1rem;
+    color: var(--background);
+    background-color: var( --pirmaryback);
+    border: solid 1px var(--background);
+    
+}
+.add-service-bt{
+    margin: 1rem;
+    color: var(--pirmaryback);
+    background-color: var( --background);
+    
+
+}
+
+@media only screen and (max-width: 992px) {
+    .home21st-div{
+        height:94.9vh;
+        width: 50rem;
+        background-color: var(--pirmaryback);
+        
+    }
+    .home22nd-div{
+        display: none;
+    }
+    .btn--{
+        
+        position: relative;
+        top: 12rem;
+    }
+    
+    
+    
+  }
+  @media only screen and (min-width: 992px) {
+    .btn-row{
+        display: none;
+    }
+    .home21st-div{
+        transform: skew(-5deg);
+        height: 94.9vh;
+        
+    }
+    
+    .home22nd-div{
+        height: 94.9vh;
+    }
+    .btn--{
+        
+        position: relative;
+        top: 5rem;
+        left: 2rem;
+    }
+    
+    .add-support-bt{
+        margin: 1rem;
+        color: var(--background);
+        background-color: var( --pirmaryback);
+        border: solid 1px var(--background);
+        transform: skew(5deg);
+    }
+    .add-service-bt{
+        margin: 1rem;
+        color: var(--pirmaryback);
+        background-color: var( --background);
+        transform: skew(5deg);
+    
+    }
+    .img-div-home2-img{
+        position: relative;
+        top: 15rem;
+        left: 3rem;
+    }
+  
+
+}

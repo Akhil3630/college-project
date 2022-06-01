@@ -1,0 +1,26 @@
+:root {
+    --light-color:#ffffff;;
+    --ge-color:#ff4141;
+    --black-color:#121212;
+  }
+  .registration{
+      position: relative;
+      top:4rem;
+      
+  }
+  .register-form{
+      border-radius: .5rem;
+      box-shadow:  1px 5px 20px 0px rgba(0, 0, 0, .1);
+  }
+  .reg-submit input{
+      width: 15rem;
+      height: 3rem;
+      font-size: 1rem;
+      
+  }
+  .reg-submit{
+    margin: auto;
+  }
+  input:active{
+    outline: none;
+  }
