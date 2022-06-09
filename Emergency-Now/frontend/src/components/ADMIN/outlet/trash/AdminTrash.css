@@ -1,0 +1,9 @@
+
+    .admin-trash-div{
+        overflow: auto;
+        height: 25vh;
+    }
+    .userTrash-icon{
+        display: flex;
+        justify-content: center;
+    }
