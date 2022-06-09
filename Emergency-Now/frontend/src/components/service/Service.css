@@ -1,0 +1,55 @@
+:root {
+    --light-color:#ffffff;;
+    --red-color:#f64243;
+    --black-color:#121212;
+  }
+  .service{
+      background-color: var(--red-color);
+      height: 94.9vh;
+  }
+  .srv-card{
+      background-color: var(--light-color);
+      border: solid var(--red-color);
+      border-radius: 1rem;
+    }
+  .srv-card-icon{
+      margin-top: 1rem;
+      color: var(--red-color);
+      font-size: calc(100% + 1.5vw + 1.5vh);
+  }
+  .srv-card-text{
+      margin-bottom: 1rem;
+      color: var(--red-color);
+      font-weight: bolder;
+      font-size: calc(100% + .5vw + .5vh);
+  }
+  .srv-card-des{
+    font-size: .9rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+  @media only screen and (max-width: 768px) {
+    .service{
+        height: 180vh;
+    }
+    .srv-card{
+        top: 0;
+        border: solid 2rem var(--red-color);
+      }
+  }
+  @media only screen and (min-width: 768px) {
+    .srv-h1-div{
+      padding-top: 2rem;
+  }
+
+  }
+  @media only screen and (min-width: 992px) {
+    
+    .srv-card{
+        top: 3rem;
+       
+      }
+      .srv-h1-div{
+          padding-top: 3rem;
+      }
+  }

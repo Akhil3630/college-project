@@ -1,0 +1,75 @@
+:root {
+    --light-color:#ffffff;;
+    --re-color:#ff4141;
+    --black-color:#121212;
+  }
+  .sup-h2{
+      font-size: 2rem;
+      font-weight: bolder;
+      color: var(--re-color);
+      padding-top: 3rem;
+  }
+  .sup-table{
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 2rem;
+  }
+  .sup-label{
+      padding-top: 1rem;
+      font-weight: bolder;
+      color: var(--re-color);
+      
+  }
+  .sup-in{
+      border: none;
+      background-color:#a7a7a72c ;
+      width: 20rem;
+      height: 2.2rem;
+      border-radius: .5rem;
+      padding-left: 1rem;
+      color: var(--black-color);
+      outline: none;
+  }
+  .sup-btn{
+      margin-top: 2rem;
+      margin-right: 1rem;
+      border: none;
+      background-color: var(--re-color);
+      color: var(--light-color);
+      font-weight: bolder;
+      width: 10rem;
+      height: 2.5rem;
+      border-radius: 1rem;
+      cursor: pointer;
+  }
+  @media screen and (min-width:700px)  {
+    .sup-img{
+        width: 35rem;
+    }
+}
+@media screen and (min-width:992px)  {
+    .sup-img{
+        width: 75rem;
+    }
+    .sup-row{
+        margin-top: 10rem;
+    }
+    
+}
+@media screen and (min-width:1500px)  {
+    .sup-h2{
+        font-size: 2.4rem;
+        
+    }
+    .left-signup{
+
+        position: relative;
+        top: 2rem;
+        right: 5rem;
+    }
+    .right-signup{
+        position: relative;
+        left: 5rem;
+    }
+    
+}

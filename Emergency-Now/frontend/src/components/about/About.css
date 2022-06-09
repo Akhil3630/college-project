@@ -1,0 +1,15 @@
+:root{
+    --pirmaryback:#ff4141;
+    --text:#121212;
+    --background:#ffffff;
+}
+.about{
+    height: 94.9vh;
+    background-color: var(--pirmaryback);
+}
+.about-h1{
+    padding-top: 10rem;
+}
+.about-p{
+    padding-top: 5rem;
+}

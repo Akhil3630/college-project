@@ -1,0 +1,47 @@
+:root {
+    --light-color:#ffffff;
+    --red-color:#dc3545;
+    --black-color:#121212;
+  }
+.contact-left-form-items{
+    margin-top:3rem ;
+
+}
+.contact-left-form-items label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(2rem,-1rem);
+    width: 5rem;
+    background-color: #ffffff;
+
+}
+.contact-left-form-items input{
+    height: 3rem;
+}
+.contact-left-form-items textarea{
+    resize: none;
+}
+.social-media-icons{
+    margin-left: 1rem;
+    max-width: 25rem;
+    display: flex;
+    justify-content: space-around;
+}
+.contact-right{
+    display: flex;
+    align-items: center;
+    transform: translateX(5rem);
+}
+.contact-icon{
+    width: 2rem;
+    height: 2rem;
+}
+@media (max-width: 992px) {
+    
+
+.contact-right{
+    display: none;
+}
+
+}

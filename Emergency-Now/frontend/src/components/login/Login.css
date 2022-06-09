@@ -1,0 +1,76 @@
+:root {
+    --light-color:#ffffff;
+    --re-color:#ff4141;
+    --black-color:#121212;
+  }
+  .login-h1{
+      color: var(--re-color);
+      font-weight: bolder;
+      margin-top: 1rem;
+      
+  }
+  .login-row{
+      border-radius: 1rem;
+      box-shadow:  4px 4px 10px 5px rgba(0, 0, 0,.1);
+      height: 40vh;
+      width: 70vw;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 12rem;
+     
+  }
+  .log-in{
+     outline: none;
+     width: 16rem;
+     height: 2.5rem;
+     margin-left: auto;
+     margin-right: auto;
+     position: relative;
+     bottom: 2.8rem;
+     left: 1.5rem;
+     border: none;
+     font-weight: bold;
+     
+  }
+  .log-form{
+      display: flex;
+      flex-direction: column;
+     
+  }
+  .log-icon{
+      position: relative;
+      top: .5rem;
+      color: var(--light-color);
+      font-size: 2rem;
+      
+      
+
+  }
+  .log-icon-span{
+     width: 3rem;
+     height: 3rem;
+     background-color: var(--re-color);
+  }
+  .log-span{
+    border: solid 1px var(--re-color);
+    width: 20rem;
+    height: 3rem;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .log-btn{
+      margin: auto;
+      cursor: pointer;
+  }
+  @media screen and (min-width:992px) {
+
+    .login-row{
+        
+        height: 40vh;
+        width: 40vw;
+        
+       
+    }
+      
+  }

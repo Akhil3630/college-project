@@ -1,0 +1,54 @@
+:root {
+    --light-color:#ffffff;;
+    --red-color:#f64243;
+    --black-color:#121212;
+  }
+  .emergency{
+      background-color: var(--red-color);
+      height: 100vh;
+  }
+  .ey-card{
+      top: 1rem;
+      background-color: var(--light-color);
+      border: solid var(--red-color);
+      border-radius: 1rem;
+      text-decoration: none;
+    }
+    .ey-card:hover{
+      text-decoration: none;
+    }
+  .ey-card-icon{
+      margin-top: 1rem;
+      color: var(--red-color);
+      font-size: calc(100% + 1.5vw + 1.5vh);
+  }
+  .ey-card-text{
+      margin-bottom: 1rem;
+      color: var(--red-color);
+      font-weight: bolder;
+      font-size: calc(100% + .5vw + .5vh);
+  }
+  .ey-card-des{
+    font-size: .9rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+  @media only screen and (max-width: 768px) {
+    .emergency{
+        height: 190vh;
+    }
+    .ey-card{
+        top: 0;
+        border: solid 2rem var(--red-color);
+      }
+  }
+  @media only screen and (min-width: 992px) {
+    
+    .ey-card{
+        top: 3rem;
+       
+      }
+      .ey-h1-div{
+          padding-top: 3rem;
+      }
+  }
