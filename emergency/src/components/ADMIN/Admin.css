@@ -1,0 +1,113 @@
+/* background-color: #dc3545; */
+.adminlog{
+    height: 94vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.adminlog-div{
+    padding: 5rem;
+    margin-top: 10rem;
+    border-radius: .5rem;
+}
+.admin{
+    display: flex;
+}
+.admin-sidebar{
+    width: 25vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contents .admin-content-btn {
+
+    height: 4rem;
+    width: 20vw;
+    border-radius: 0;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+
+.admin-page{
+    background-color: rgba(0, 0, 0, 0.124);
+    height:100%;
+}
+.admin-topbar{
+
+    width: 70vw;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.admin-topbar-divs{
+
+    width: 12rem;
+    height: 9rem;
+    display: flex;
+    margin: .5rem;
+    justify-content: left;
+    flex-direction: column;
+    background: repeating-conic-gradient(from 0deg at 50% 50%, #dc3545 62%, #dc3545 72%, #cb2f2f 87.15%);
+    border-radius: .5rem;
+    padding: 1rem;
+
+}
+.admin-topbar-icons{
+    font-size: 1.5rem;
+}
+.admin-logo{
+    display: flex;
+    
+}
+.admin-logo img{
+    width: 4rem;
+    height: 4rem;
+}
+.admin-outlet{
+    height: 60vh;
+    border-radius: .5rem;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.delete-restore-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* MEDIA QUERY */
+
+@media (max-width: 992px) {
+
+
+.admin-sidebar h3{
+    display: none;
+}
+}
+@media (max-width: 768px) {
+    .admin-content-btn span{
+        display: none;
+    }
+    .admin-content-btn .sidebar-icons{
+        font-size: 2rem;
+    }
+    .admin-content-btn{
+        display: flex;
+        justify-content: center;
+    }
+    .admin-outlet{
+        height: 50vh;
+        border-radius: .5rem;
+        position: relative;
+        top: 5rem;
+    }
+    
+}
